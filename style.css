@@ -1,7 +1,6 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	margin: 0px;
 }
 
 body {
@@ -13,9 +12,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	display: flex;
-	justify-content: center space-around;
-	align-items: center;
 	flex-direction: column;
+	justify-content: space-between;
 }
 
 h1 {
@@ -23,7 +21,8 @@ h1 {
 }
 
 hr{
-	width: 75%;
+	width: 50%;
+	min-width: 350px;
 	border-top: 1px solid #DDEADB;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -41,7 +40,7 @@ hr{
 }
 
 .form {
-	min-width: 300px;
+	min-width: 350px;
 	width: 30%;
 	background-color: #051305;
 	border-radius: 50px;
@@ -58,3 +57,4 @@ input {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
