@@ -1,0 +1,59 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	text-align: center;
+	color: #DDEADB;
+	background-image: url("background.jpg");
+	/*Photo by Markus Spiske on Unsplash mention it somewhere on the page*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+hr{
+	width: 75%;
+	border-top: 1px solid #DDEADB;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+	font-size: 1.2em;
+	background-color: #051305;
+	transition: all 0.8s;
+	margin-bottom: 15px;
+}
+
+.btn-secondary:hover {
+	transform: scale(1.1);
+	background-color: #1C5B1C;
+}
+
+.form {
+	min-width: 300px;
+	width: 30%;
+	background-color: #051305;
+	border-radius: 50px;
+}
+
+
+label {
+	display: block;
+}
+
+input {
+	width: 70%;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
